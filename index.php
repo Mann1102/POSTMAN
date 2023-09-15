@@ -15,7 +15,7 @@ $password = "";
 $dbname = "info";
 
 // Your API Key
-$apiKey = "PMAK-6504074109d92e00424b474f-a79468af05861196d61299ee2f64c4ac28"; // Replace with your actual API key
+$apiKey = "PMAK-################################################"; // Replace with your actual API key
 
 // Check if the API key is provided in the headers
 $headers = getallheaders();
@@ -63,8 +63,8 @@ $conn->close();
 
 // cURL code for making an external API request
 $url = 'https://api.example.com/endpoint';
-$username = 'manaj1102';
-$password = 'Manaj@123456';
+$username = 'usename';
+$password = 'password';
 
 $headers = [
     'Authorization: Basic ' . base64_encode($username . ':' . $password)
